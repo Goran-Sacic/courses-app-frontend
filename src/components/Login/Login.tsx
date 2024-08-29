@@ -19,6 +19,8 @@ const Login: React.FC = (): React.JSX.Element => {
 	);
 	const [error, setError] = useState<string | null>(null);
 
+	const [showInfo, setShowInfo] = useState<boolean>(false);
+
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
 
@@ -105,6 +107,10 @@ const Login: React.FC = (): React.JSX.Element => {
 	const showEmailErrorBorder = emailErrorMessage ? styles.error : '';
 	const showPasswordErrorBorder = passwordErrorMessage ? styles.error : '';
 
+	const handleShowInfo = () => {
+		setShowInfo(!showInfo);
+	};
+
 	return (
 		<div className={styles.container}>
 			<form onSubmit={handleFormSubmit} className={styles.form}>
@@ -146,6 +152,21 @@ const Login: React.FC = (): React.JSX.Element => {
 					</p>
 				</div>
 			</form>
+			{!showInfo ? (
+				<button className={styles.button} onClick={handleShowInfo}>
+					INFO
+				</button>
+			) : (
+				<button className={styles.button} onClick={handleShowInfo}>
+					CLOSE
+				</button>
+			)}
+			{showInfo && (
+				<p className={styles.info}>
+					No need to register, you can use dummy admin login to test the app:
+					admin@email.com admin123
+				</p>
+			)}
 		</div>
 	);
 };
