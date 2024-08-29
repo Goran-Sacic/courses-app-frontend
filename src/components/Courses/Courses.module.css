@@ -1,0 +1,12 @@
+.searchBarAndButton {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1180px;
+	width: 90vw;
+}

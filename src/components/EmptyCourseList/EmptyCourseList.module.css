@@ -1,0 +1,27 @@
+.empty {
+	margin-top: 120px;
+	padding: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	background-color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.empty button {
+	padding: 10px 20px;
+}

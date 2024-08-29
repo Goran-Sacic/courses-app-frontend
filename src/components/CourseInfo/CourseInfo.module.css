@@ -1,0 +1,101 @@
+.courseInfoContainer {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title {
+	padding-top: 50px;
+	padding-left: 10px;
+}
+
+.courseInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+}
+
+.card {
+	display: flex;
+	width: 100%;
+}
+
+.containerAll {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	align-items: flex-start;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.description {
+	flex: 0 0 55%;
+	padding-right: 20px;
+	min-width: 200px;
+	border-right: 1px solid grey;
+}
+
+.info {
+	width: 45%;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-top: 15px;
+	margin-left: 25px;
+}
+
+.dataDisplay {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.dataTitle {
+	font-weight: bold;
+	width: 30%;
+	min-width: 80px;
+}
+
+.overflow {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.vl {
+	border: 1px solid grey;
+	height: 100px;
+}
+
+.btn {
+	display: flex;
+	justify-content: end;
+	padding-right: 10px;
+}
+
+.duration {
+	font-weight: bold;
+	margin-right: 4px;
+}

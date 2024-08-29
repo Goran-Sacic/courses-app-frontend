@@ -1,0 +1,26 @@
+.authorItem {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	gap: 10px;
+}
+
+.authorItem button {
+	color: black;
+	background-color: white;
+	border: none;
+	width: 10px;
+	height: 20px;
+}
+
+.authorItem button:hover {
+	background-color: rgb(200, 200, 200);
+	border: none;
+}
+
+.authorContent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
+}

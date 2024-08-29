@@ -1,0 +1,167 @@
+.courseFormContainer {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.courseFormContainer h1 {
+	padding-top: 20px;
+	width: 400px;
+	margin-left: 160px;
+}
+
+.courseForm {
+	display: flex;
+	flex-direction: column;
+	width: 850px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.form > h3 {
+	margin-bottom: 10px;
+}
+
+.inputContainer,
+.descriptionInput,
+.durationAndAuthors,
+.createAuthor {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.biggerDescription input {
+	height: 200px;
+}
+
+.form input,
+.form textarea {
+	display: flex;
+	width: 97%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid rgba(128, 128, 128, 0.39);
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+	border: 1px solid red;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 0.875rem;
+	margin-top: 5px;
+}
+
+.createAuthor {
+	display: flex;
+	align-items: flex-start;
+}
+
+.createAuthor button {
+	margin-left: 10px;
+}
+
+.authorListsContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.courseAuthors {
+	margin-top: 20px;
+}
+
+.durationText {
+	margin-top: 5px;
+	font-size: 1.25rem;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.buttons button {
+	width: auto;
+}
+
+.duration {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+	width: 450px;
+}
+
+.calculatedDuration {
+	width: 300px;
+	text-align: center;
+}
+
+.duration input {
+	width: 300px;
+}
+
+.durationText {
+	width: 200px;
+}
+
+.authors {
+	display: flex;
+	width: 500px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.authors input {
+	width: 300px;
+}
+
+.authors button {
+	margin-top: 20px;
+	height: 60px;
+}
+
+.authorListsContainer {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+}
+
+.courseAuthorsList {
+	margin-right: 90px;
+	width: 250px;
+}
+
+.successMessage {
+	padding-top: 5px;
+	text-align: end;
+}
+
+.hours {
+	font-weight: bold;
+}
+
+.textarea {
+	font-family: inherit;
+	height: 200px;
+}
+
+.textarea::placeholder {
+	color: rgba(128, 128, 128, 0.644);
+}

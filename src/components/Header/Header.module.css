@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+	margin: 10px;
+	padding: 15px;
+	align-items: center;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+	background-color: white;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.nameAndButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
