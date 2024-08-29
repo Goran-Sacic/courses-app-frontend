@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:4000';
+/* const URL = 'http://localhost:4000'; */
+const URL = 'https://courses-app-backend-00tw.onrender.com';
 
 export const fetchAuthorsFromAPI = async () => {
 	try {
@@ -137,7 +138,7 @@ export const fetchCourseByIDFromAPI = async (courseId: string) => {
 };
 
 export const updateCourseOnAPI = async ({ courseId, course, token }) => {
-	console.log('Šalje kurs: ', course);
+	// console.log('Šalje kurs: ', course);
 	try {
 		const response = await axios.put(`${URL}/courses/${courseId}`, course, {
 			headers: {
